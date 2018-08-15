@@ -3,6 +3,7 @@
 
 Note that for the purposes of this exercise I’m using an input text file consisting of pipe separated fields and containing approximately 6.5 million records. The first ten records of the file are shown below:
 
+```
 18511|50|32639952|2016-04-30|0|269375960|0|68.39|26.24091|0|0|1||
 18511|50|117903433|2016-03-31|0|2325005|0||15.66319|0|0|4||
 18511|50|234816910|2016-06-30|0|3958501|0|27.74|3.3079|-2250000|-36.24|9||1
@@ -13,6 +14,7 @@ Note that for the purposes of this exercise I’m using an input text file consi
 18527|50|20063753|2016-05-04|0|538340870|0||21.16271|0|0|1||
 18527|50|20228450|2016-06-28|0|2916387|0||49.85077|0|0|1||
 18527|50|34636339|2016-06-30|0|158931281|0||75|0|0|1||
+```
 
 When using Spark Sql to load data in from text files like the one above one of the commonest pieces of coding you’ll likely 
 see is something like the following:
